@@ -14,7 +14,7 @@ public class servlet01 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		System.out.pritnln("hello Servlet");
+		System.out.println("hello Servlet");
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 	}
 
